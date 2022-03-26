@@ -1,8 +1,9 @@
 
 const Image = (props) => {
     return (
-        <img src={props.image.url} alt="yuhu" />
+        <img src={props.url} alt={props.name} />
     )
 }
+
 
 export default Image;

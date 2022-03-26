@@ -1,12 +1,15 @@
 div.App {
-    display: inline-block;
-    margin: 100px 300px 100px 300px;
+    width: 1100px;
+    display: flex;
+    margin: 50px 120px;
     border: 3px solid black;
     border-radius: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 h2 {
-    font-size: 13px;
+    font-size: 14px;
 }
 
 button {
@@ -27,4 +30,13 @@ button:hover {
     background: Black;
     color: white;
     transition: 0.5s;
+}
+
+img {
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.card {
+    margin: 10px 20px 20px 20px;
 }
