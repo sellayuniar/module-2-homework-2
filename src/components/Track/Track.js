@@ -3,7 +3,7 @@ import Image from "./Image/Image";
 import Text from "./Text/Text";
 import Button from "./Button/Button";
 
-const Card = ({image, name, artists}) => (
+const Track = ({image, name, artists}) => (
         <div className="card">
         <Image url={image}/>
         <Text name={name} artists={artists}/>
@@ -11,9 +11,9 @@ const Card = ({image, name, artists}) => (
         </div>
 )
 
-const CardLoop = () => {
+const TrackLoop = () => {
     return data.map((a) => (
-        <Card 
+        <Track
         key={a.idx}
         image={a.album.images[1].url}
         name={a.album.name}
@@ -22,6 +22,6 @@ const CardLoop = () => {
     ))
 }
 
-export default CardLoop;
+export default TrackLoop;
 
 

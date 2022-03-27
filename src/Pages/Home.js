@@ -1,8 +1,8 @@
-import CardLoop from "../components/Card/Card";
+import TrackLoop from "../components/Track/Track";
 
 const HomePage = () =>{
     return (
-        <CardLoop />
+        <TrackLoop />
     )
 }
 
